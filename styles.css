@@ -1,0 +1,91 @@
+/* CSS styles for the weather report */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #2F4F4F;
+  background-size:cover;
+}
+
+.main-frame {
+  display: flex;
+  align-items: center;
+  width: 800px;
+  padding: 70px;
+  background-color: #ADD8E6;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.left-frame {
+  flex: 1;
+  text-align: left;
+  position: relative;
+}
+
+.background-image {
+  background-image: url('th.jpg');
+  background-size: cover;
+  background-position: cover;
+  width: 400px;
+  height: 600px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.temperature {
+  font-size: 36px;
+  font-weight: bold;
+  color: #000000;
+}
+
+.location {
+  font-size: 24px;
+  color: #000000;
+  margin-bottom: 10px;
+}
+
+.time,
+.date {
+  color: #000000;
+}
+
+.right-frame {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.upper-frame {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.upper-frame img {
+  width: 400px;
+  height: 400px;
+}
+
+.lower-frame {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.icon-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.icon-container img {
+  width: 100px;
+  height: 100px;
+}
+
+.info {
+  font-size: 16px;
+}
